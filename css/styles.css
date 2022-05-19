@@ -246,7 +246,17 @@ body {
 
 /* Styles.css for portfolio.html */
 /* Навигация */
+.conteiner-section {
+    padding: 94px 215px;
+}
+
+.conteiner-portfolio {
+    width: 1200px;
+    outline: 2px solid tomato;
+}
+
 .btn .btn-list {
+    padding: 0;
     background-color: var(--accent-bgr-color);
     font-family: inherit;
     font-weight: 500;
@@ -266,14 +276,19 @@ body {
 
 /* Услуги */
 .heading {
+    margin: 20px 24px 4px;
     color: var(--title-text-color);
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
+    outline: 2px solid green;
 }
 
 .services .vacancy {
+    margin: 4px 24px 20px 24px;
     font-size: 16px;
     line-height: 1.88;
+    outline: 2px solid blue;
 }
+
