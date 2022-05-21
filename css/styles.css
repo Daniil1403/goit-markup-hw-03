@@ -58,7 +58,6 @@ body {
     margin-left: auto;
     margin-right: auto;
     width: 1200px;
-    outline: 2px solid green;
 }
 
 .conteiner-nav {
@@ -189,7 +188,6 @@ body {
     margin-left: auto;
     margin-right: auto;
     width: 1200px;
-    outline: 2px solid green;
 }
 
 .section-study {
@@ -238,6 +236,10 @@ body {
     display: flex;
 }
 
+.section-list .list:not(:last-child) {
+    margin-right: 30px;
+}
+
 /* Team */
 .team {
     background-color: var(--accent-bgr-color);
@@ -248,6 +250,7 @@ body {
     padding-bottom: 50px;
     margin-top: 0;
     margin-bottom: 0;
+
     color: var(--title-text-color);
     font-weight: 700;
     font-size: 36px;
@@ -256,24 +259,38 @@ body {
 }
 
 .subtitle {
+    margin-top: 30px;
+    margin-right: 10px;
     color: var(--title-text-color);
     font-weight: 500;
     font-size: 16px;
     line-height: 1.19;
+    text-align: center;
 }
 
 .team-list {
+    display: flex;
     padding-bottom: 94px;
 }
 
+.team-list .list:not(:last-child) {
+    margin-right: 30px;
+}
+
 .team-list .job {
+    margin-bottom: 30px;
     font-size: 14px;
     line-height: 1.7;
+    text-align: center;
 }
 
 /* Footer */
 .footer {
     background-color: #2F303A;
+}
+
+.footer .conteiner {
+    padding: 0;
 }
 
 .logo-footer {
@@ -318,12 +335,12 @@ body {
     padding-right: 15px;
     margin-left: auto;
     margin-right: auto;
-    outline: 2px solid tomato;
 }
 
 .btn {
     display: flex;
     justify-content: center;
+    margin-bottom: ;
 }
 
 .btn .btn-list {
@@ -373,7 +390,6 @@ body {
     margin: 4px 24px 20px 24px;
     font-size: 16px;
     line-height: 1.88;
-    outline: 2px solid blue;
 }
 
 .picture {
@@ -387,6 +403,5 @@ body {
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
-    outline: 2px solid green;
 }
 
