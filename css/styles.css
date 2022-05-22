@@ -148,6 +148,8 @@ body {
 
 /* Шапка */
 .hero {
+    padding-top: 200px;
+    padding-bottom: 200px;
     background-color: #2F303A;
     text-align: center;
 }
@@ -155,6 +157,9 @@ body {
 .hero-title {
     margin-top: 0;
     margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 696px;
     color: var(--title-white-color);
     font-weight: 900;
     font-size: 44px;
@@ -165,6 +170,8 @@ body {
 
 /* Button*/
 .button {
+    margin-left: auto;
+    margin-right: auto;
     color: var(--title-white-color);
     background-color: var(--accent-color);
     font-weight: 700;
@@ -214,7 +221,7 @@ body {
     color: var(--title-text-color);
     font-weight: 700;
     font-size: 14px;
-    line-height: 1.4;
+    line-height: 1.14;
 }
 
 .features .list {
@@ -229,9 +236,14 @@ body {
 .features .paragraf{
     margin-top: 0;
     margin-bottom: 0;
+    line-height: 1.71;
 }
 
 /* Чем занимаемся */
+.section-title {
+    margin-bottom: 50px;
+}
+
 .section-list {
     display: flex;
 }
@@ -242,14 +254,14 @@ body {
 
 /* Team */
 .team {
+    padding-top: 94px;
+    padding-bottom: 50px;
     background-color: var(--accent-bgr-color);
 }
 
 .team-title {
-    padding-top: 94px;
-    padding-bottom: 50px;
     margin-top: 0;
-    margin-bottom: 0;
+    margin-bottom: 50px;
 
     color: var(--title-text-color);
     font-weight: 700;
@@ -258,9 +270,14 @@ body {
     text-align: center;
 }
 
+.info {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
 .subtitle {
-    margin-top: 30px;
-    margin-right: 10px;
+    margin-top: 0;
+    margin-bottom: 10px;
     color: var(--title-text-color);
     font-weight: 500;
     font-size: 16px;
@@ -278,7 +295,8 @@ body {
 }
 
 .team-list .job {
-    margin-bottom: 30px;
+    margin-top: 0;
+    margin-bottom: 0;
     font-size: 14px;
     line-height: 1.7;
     text-align: center;
@@ -286,12 +304,12 @@ body {
 
 /* Footer */
 .footer {
+    padding-top: 60px;
+    padding-bottom: 60px;
     background-color: #2F303A;
 }
 
 .footer .conteiner {
-    padding-top: 60px;
-    padding-bottom: 60px;
     padding-left: 0;
 }
 
@@ -318,15 +336,12 @@ body {
 }
 
 .footer .footer-socials {
-    margin-top: 9px;
+    margin: 0;
+    padding: 0;
     color: rgba(255, 255, 255, 0.6);
     text-decoration: none;
     line-height: 1.71;
     font-style: normal;
-}
-
-.footer .footer-socials:not(:last-child) {
-    margin-bottom: 9px;
 }
 
 .footer .footer-socials:hover,
@@ -334,10 +349,22 @@ body {
     color: var(--accent-color);
 }
 
+.mobile {
+    margin-top: 9px;
+}
+
+.mobile .mobile-list {
+    margin-top: 9px;
+}
+
+br {
+    display: none;
+}
 /* Styles.css for portfolio.html */
 /* Навигация */
 .conteiner-section {
-    padding: 94px 215px;
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
 
 .conteiner-portfolio {
@@ -351,17 +378,18 @@ body {
 .btn {
     display: flex;
     justify-content: center;
-    margin-bottom: ;
 }
 
 .btn .btn-list {
-    padding: 0;
+    height: 38px;
+    padding: 0;   
     background-color: var(--accent-bgr-color);
     font-family: inherit;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.63;
     letter-spacing: 0.03em;  
+    text-align: center;
 }
 
 .btn .list:not(:last-child) {
@@ -377,6 +405,25 @@ body {
     background-color: var(--accent-color);
 }
 
+.oll {
+    width: 73px;
+}
+
+.veb {
+    width: 128px;
+}
+
+.appendix {
+    width: 145px;
+}
+
+.design {
+    width: 103px;
+}
+
+.marketing {
+    width: 130px;
+}
 /* Услуги */
 .services {
     margin-top: 50px;
@@ -417,12 +464,21 @@ body {
     display: block;
 }
 
-.heading {
-    margin: 20px 24px 4px;
+.caption {
+    padding: 20px 24px;
+}
+
+.caption .heading {
+    margin-top: 0;
+    margin-bottom: 4px;
     color: var(--title-text-color);
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
+}
+
+.caption .vacancy {
+    margin: 0;
 }
 
